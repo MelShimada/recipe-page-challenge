@@ -1,0 +1,58 @@
+
+.conteudo {
+    border-radius: 1%;
+    background-color: white;
+    max-width: 46rem;
+    padding-block-end: 2.5rem;
+    padding-inline: 2rem;
+}
+
+body {
+    padding: 8em;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family: 'Outfit';
+    font-weight: 400, 600, 700;
+    background-color:  hsl(30, 54%, 90%);
+    color: hsl(30, 10%, 34%);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+img {
+    border-radius: 1%;   
+    display: block;
+    max-width: 100%;
+    padding: 1em;
+}
+
+
+h1 {
+    font: 'Young Serif', serif, 400, 40px;
+    color: black;
+}
+
+.preptime {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 5px;
+    padding: 1em;
+}
+
+.tabela, td {
+    width: 100%;
+    border-collapse:collapse;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+   
+}
+
+.li::marker {
+    color: red;
+}
